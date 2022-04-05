@@ -1,0 +1,125 @@
+---
+title: "Kyle Simpson's CV"
+author: Kyle Patrick Simpson
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+library(fontawesome)
+library(tidyverse)
+library(glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- TRUE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R') # Functions for building sections from CSV data
+source('common_variables.R')  # Small variables for non-csv data such as intro text
+
+# First let's get the data, filtering to only the items tagged as
+# Resume items
+position_data <- read_csv('positions.csv') %>% 
+  filter(in_resume) 
+  
+```
+
+
+Aside
+================================================================================
+
+
+![logo](rubixTest.png){width=90%}
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> kyle.p.simpson@gmail.com
+- <i class="fab fa-twitter"></i> _Kyle_Simpson
+- <i class="fab fa-github"></i> github.com/uberkeil
+- <i class="fab fa-linkedin-in"></i> /kyle-p-simpson
+- <i class="fa fa-phone"></i> +64 27 388 5863
+- <i class="fa fa-home"></i> 365 Tomahawk Road
+- <i class="fa fa-road"></i> Ocean Grove, Dunedin, 9010
+
+
+Analysis & Coding {#skills}
+--------------------------------------------------------------------------------
+
+
+```{r}
+build_skill_bars(skills)
+```
+
+
+
+Self Directed Learning {#interests}
+--------------------------------------------------------------------------------
+
+ 
+- <i class="fa fa-dice"></i> Bayesian Statistics 
+- <i class="fa fa-hourglass-half"></i> Time Series Analysis
+- <i class="fa fa-comments-o"></i> French Language Studies
+- <i class="fa fa-adjust"></i> Tai Chi & Yoga
+
+References {#more-info}
+--------------------------------------------------------------------------------
+- *Available upon request* 
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+
+Main
+================================================================================
+
+Kyle P. Simpson {#title}
+--------------------------------------------------------------------------------
+
+```{r}
+cat(sanitize_links(intro_text))
+```
+
+
+Professional History {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('work_history')
+```
+
+Volunteering & Pro Bono Work {data-icon=heart}
+--------------------------------------------------------------------------------
+
+
+```{r}
+position_data %>% print_section('service')
+```
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('education')
+```
+
+Certification {data-icon=bookmark data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('certification')
+```
