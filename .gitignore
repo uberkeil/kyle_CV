@@ -3,3 +3,4 @@ to_add.R
 index.Rmd
 .gitignore
 .Rproj.user
+.Rproj.user/*
