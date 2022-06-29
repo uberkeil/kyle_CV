@@ -1,0 +1,56 @@
+section,in_resume,title,start,end,loc,institution,description_1,description_2,description_3
+work_history,TRUE,Lodgement Administrator ,2021,2022,"Accident Compensation Commission, NZ","Dunedin, NZ",Resolved high daily volume of information conflicts,Used Microsoft Office Suite for various administrative tasks,Assisted in identifying opportunities for improving processes & services.
+service,TRUE,Data Analyst,2020,2021,Fungus Federation,"Auckland, NZ",Used R and Google Sheets to clean company data sets ,Forecast growing cycles of pleurotus pulmonarius in various growing conditions.,Communicated findings to stakeholders with pivot tables and interactive dash boards. 
+work_history,FALSE,Undergraduate Psychology Course Tutor,2018,2019,University of Wellington School of Psychology,"Wellington, NZ",Introduced reflective journaling & peer feedback as course components. ,Taught course content & graded assignments.,Assisted with School of Psychology transition from SPSS to R.
+work_history,FALSE,Managing Director,2012,2016,Barsquire Beverage Consultancy Services,"Wellington, NZ",Curated database of spirits & cocktail recipes.,Supplied consultancy services to the hospitality industry. ,Recruitment & Mentoring.
+service,TRUE,Junior Data Scientist,2019,2020,Greenback Ltd. ,"Auckland, NZ",Conducted literary review of modeling techniques for NZ native tree growth & carbon sequestration,Modeled NZ native tree growth & carbon sequestration potential.,Attended Impact Collective Accelerator Program 
+service,FALSE,Data Analyst ,2019,Present,Self-Employed,"Dunedin, NZ",Various Projects,Business Intelligence,
+service,TRUE,Data Analyst,2021,2022,Barrio Del Chur Artist & Event Collective,"Wellington, NZ",Designed & distributed surveys to measure guest experience following large immersive event.,Applied qualitative & quantitative analysis to survey and social media.,Implemented data driven insights to improve user/guest experiences. 
+service,FALSE,Mentor,2017,2018,Te Pūtahi Atawhai – Māori & Pasifika Academic Support ,"Wellington, NZ",Tutored Psychology Research Methods & statistics course content.,Provided additional academic & peer support.,Received extensive cultural awareness & sensitivity training.
+education,FALSE,Double BA Psychology & Philosophy,2015,2019,,,Research Assistant for Emotion & Ritual Study.,Research Assistant to Mind & Culture Lab.,
+certification,FALSE,Course Certificate Introduction to Machine Learning,2020,2021,Coursera/Duke University,,,,
+certification ,FALSE,Google Data Analytics Professional Certificate ,2021,Present,Coursera/Google,,,,
+work_history,FALSE,Social Media Coordinator,2018,2019,Center For Applied Cross Cultural Research (CACR),"Wellington, NZ",Content Creation: Research & Communication ,Online Presence/Social Media Platforms,NZFMC Summit
+work_history,FALSE,Operations Manager,2020,2021,Twisted Frequencies NYE Festival,"East Takaka, NZ","Oversaw the setup, running, and pack down of a 1800 person 3 day festival.","Principle point of contact in event of technical, security, or health & safety issues.",Coordinated teams of volunteers and paid employees.
+work_history,FALSE,Bar Manager,2019,Present,Zanzibar,"Dunedin, NZ",Raised customer service standards of business after change of management/ownership.,Facilitated staff development & training programs.,Successfully adapted customer service protocols in line with relevant COVID-19 alert level restrictions.
+work_history,FALSE,Social Media Coordinator,2018,2019,Center For Applied Cross Cultural Research (CACR),"Wellington, NZ",Produced daily content for the CACR's social media platforms.,Managed the online presence of the New Zealand Federation of Multicultural Councils annual summit.,
+work_history,FALSE,Undergraduate Psychology Course Tutor,2018,2019,University of Wellington School of Psychology,"Wellington, NZ",Assisted with implementing reflective journaling and peer feedback assessment component of the course.,Created lesson plans and taught course content.,Graded assignments.
+work_history,FALSE,Bartender,2015,2018,Laundry Freehouse & Jukejoint,"Wellington, NZ",Provided front line customer service at an exceptional standard.,Assisted with staff training and development.,NA
+work_history,FALSE,Bar Team Lead,2014,2015,El Cortez Mexican Kitchen & Tequila Bar,"Edmonton, Canada",Maintained up-to-date knowledge on western Canada’s largest agave spirit collection.,Facilitated training and education programs for staff.,Provided world class front line customer service.
+work_history,FALSE,Bartender,2014,2015,North 53,"Edmonton, Canada",,,
+work_history,FALSE,Bar Manager,2013,2014,The Manor,"Edmonton, Canada",,,
+work_history,FALSE,Cellar Hand,2013,2013,Framingham Winery,"Renwick, NZ",,,
+work_history,FALSE,Bartender,2012,2013,1885 Britomart,"Auckland, NZ",,,
+work_history,FALSE,Farmhand,2012,2012,Pera Farms,"Rarotonga, CI",,,
+work_history,FALSE,Managing Director,2011,2014,Barsquire Beverage Consultancy Services,"Wellington, NZ",Recruiter to the hospitality industry.,Provided cocktail catering to private and corporate events.,Designed beverage concepts for a 5 star urban resort in Hong Kong.
+work_history,FALSE,Bartender,2011,2012,Dockside Restaurant,"Wellington, NZ",,,
+work_history,FALSE,General Manager ,2010,2011,Motel Cocktail Bar,"Wellington, NZ",Administrated day-to-day running of the business.,"Hired staff, facilitated their training & development.",Researched and developed world class beverage concepts.
+work_history,FALSE,Bar Manager,2009,2010,Havana Bar,"Wellington, NZ",,,
+work_history,FALSE,Bartender,2007,2009,Matterhorn Restaurant & Bar,"Wellington, NZ",,,
+work_history,FALSE,Bar Manager,2005,2007,Goodluck Bar,"Wellington, NZ",,,
+work_history,FALSE,Barista,2005,2006,Malo Cafe,"Wellington, NZ",,,
+work_history,FALSE,Cook,2004,2005,Pasta Al Dante ,"Wellington, NZ",,,
+work_history,FALSE,Barista,2003,2004,Espressoholic Cafe,"Wellington, NZ",,,
+work_history,FALSE,Kitchen Hand,2003,2004,Martin Bosley's Yacht Club Restaurant,"Wellington, NZ",,,
+service,FALSE,Data Analyst ,2019,Present,Self-Employed,"Dunedin, NZ",Have worked with a number of small businesses and startups.,Assisted with applying data driven solutions to helping people grow their business.,Both paid and unpaid work in the interest of curating my portfolio.
+service,FALSE,Mentor,2017,2018,Te Pūtahi Atawhai,"Wellington, NZ",Mentored undergraduate Māori & Pasifika students.,Created individual study plans for Research Methods in Psychology & Statistics for Social Sciences undergraduate courses,Took part in a number cultural development initiatives.
+service,FALSE,Class Representative ,2017,2018,Psychology 325: Research Methods,"Wellington, NZ",,,
+service,FALSE,Event Manager,2012,2017,Barrio Del Chur Artist & Event Collective,"Wellington, NZ","Recruited, shortlisted, and trained volunteers.",Coordinated a team of 50 artists and creatives to provide catering and entertainment at events.,"Facilitated a number of team building, health & wellness, and cultural awareness workshops."
+service,FALSE,General Labour (Volunteering),2006,2012,Yan Zhi Jun Gold Fish & Water Lilly Nursery ,"Wellington, NZ",Gardening.,Landscaping.,General Maintenance. 
+service,FALSE,Caretaker,2001,2003,CCS Disability Action & Boccia New Zealand Ltd.,"Dunedin, NZ",Assisted with local Boccia (sport) programmes for people with cerebral palsy.,Caretaker and assistant coach to a Paralympic athlete.,Travelled to Portugal as part of the 2002 Boccia World Cup.
+service,FALSE,Founding Member,1999,2000,Dunedin Youth Forum,"Dunedin, NZ",Took part in a number of focus groups which informed youth focused cultural activities & initiatives.,Facilitated and hosted events for Dunedin youth.,
+service,FALSE,Board of Trustee Student Representative ,1999,2000,Kavanagh College,"Dunedin, NZ",,,
+education,FALSE,NZ Bursary ,1997,2000,Kavanagh College ,"Dunedin, NZ",,,
+Work_2,TRUE,Managing Director,2011,2015,Bar Squire Beverage Consultancy Services ,"Wellington, NZ",Consulted to hospitality industry drawing on 15 years of industry experience,Coordinated cocktail service for high end private events,"Created custom beverage menus for clients in New Zealand, Canada, and Hong Kong."
+certification,FALSE,Google UX Design Professional Certificate ,2022,Pending,Coursera/Google,,Acquired solid foundation in user focused design principles. ,Used Adobe XD to create design prototypes,Case Study: Wedding Menu Application 
+certification,TRUE,Google Data Analytics Professional Certificate ,2021,2022,Coursera/Google,,"Covered Google Sheets, SQL, R, and Tableau functions in depth.",Obtained robust framework for making data driven decisions.  ,Case Study: E-bike Rideshare Customer Data
+Work_1,FALSE,Accident Compensation Commission,2021,2022,Lodgement Administrator ,"Dunedin, NZ",Administrative Tasks,Remote Working,Cultural Sensitivity 
+freelance ,FALSE,Data Analyst / UX Researcher ,,,Barrio Del Chur Artist & Event Collective,"Wellington, NZ",Research & Communication ,Modeling,Accelerator Program 
+freelance ,FALSE,Junior Data Scientist ,,,Greenback Limited,"Auckland, NZ",Data Cleaning,Forecasting,Dashboard Creation 
+freelance ,FALSE,Data Analyst ,,,Fungus Federation,"Auckalnd, NZ",Point 1,Point 2,Point 3
+education,TRUE,Double Bachelor of Arts,2015,2019,Psychology & Philosophy ,Victoria University of Wellington (VUW),Extensive experience researching & communicating scientific & philosophical concepts. ,Designed numerous experiments using qualitative & quantitative research methodologies ,Used R and SPSS for analysis of scientific data
+education,TRUE,Undergraduate Psychology Course Tutor,2018,2019,PSYC 317: Evolutionary Psychology ,"VUW, NZ",Prepared & Delivered Course Content ,Graded Assignments ,Helped implement Reflective Journaling as course component. 
+education,TRUE,Mentor,2017,2018,Te Pūtahi Atawhai – Māori & Pasifika Student Support,"VUW, NZ",Provided holistic academic support to Māori & Pasifika students,Presented Statistics and Research Methods course content,Participated in thorough cultural sensitivity training sessions. 
+education,TRUE,Research Assistant ,2017,2018,Stress & Ritual Pilot Study,"VUW, NZ","Recruited, on-boarded, and debriefed research participants.",Assisted with design of experiment,Conducted Data collection throughout the study
+education,TRUE,Research Assistant ,2018,2019,Mind & Culture Lab,"VUW, NZ",Contributed to weekly lab meetings ,Coordinated research participants ,Used Qualtrics to conduct online surveys
+education,TRUE,Social Media Coordinator,2018,2019,Center for Applied Cross-Cultural Research,"VUW, NZ",Managed Multiple Social Media Accounts,Daily Content Creation for lay and academic audiences,Coordinated online presence of NZ Multi Cultural Federation annual summit.
