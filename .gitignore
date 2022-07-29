@@ -7,3 +7,4 @@ index.Rmd
 *.Rpoj
 drafts
 drafts/*
+.Rhistory
