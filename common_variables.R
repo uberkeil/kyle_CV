@@ -3,7 +3,10 @@
 # Header with description of what is trying to be accomplished with this CV/Resume
 my_title <- "Spreadsheet Savvy  &nbsp; | &nbsp;  Data Analyst &nbsp; | &nbsp; R Language Enthusiast"
 
-intro_text <- "Customer Service, Data-Analysis, and Administrative experience.  Active Listening & Cultural Sensitivity. Creative & Tenacious Problem Solver. Skilled communicator, facilitator, and mediator. Fluent in a suite of digital tools particular to office administration and data analystics."
+intro_text <- "Driven and inquisitive self starter, with strong administrative acumen¸and fluency in a vast suite of 
+tools particular to data analytics.  A background in Psychological Science, with over 3 years of 
+hands-on experience working on a variety of different data analysis projects has shaped me into a highly
+capable researcher, data storyteller, and science communicator."
 
 # Language skills for skill bars visualization
 skills <- tribble(
