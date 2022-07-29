@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 )
 library(tidyverse)
 library(glue)
+library(here)
 
 
 # Set this to true to have links turned into footnotes at the end of the document
@@ -25,12 +26,12 @@ PDF_EXPORT <- FALSE
 # Holds all the links that were inserted for placement at the end
 links <- c()
 
-source('parsing_functions.R') # Functions for building sections from CSV data
-source('common_variables.R')  # Small variables for non-csv data such as intro text
+source(here('R','parsing_functions.R')) # Functions for building sections from CSV data
+source(here('R', 'common_variables.R'))  # Small variables for non-csv data such as intro text
 
 # First let's get the data, filtering to only the items tagged as
 # Resume items
-position_data <- read_csv('positions.csv') %>% 
+position_data <- read_csv(here('data','positions.csv')) %>% 
   filter(in_resume) #%>% 
 #  mutate(
 #    # Build some custom sections by collapsing others
@@ -47,7 +48,7 @@ position_data <- read_csv('positions.csv') %>%
 Aside
 ================================================================================
 
-![logo](rubixTest.png){width=90%}
+![logo](here('images','rubixTest.png')){width=90%}
 
 
 Contact Info {#contact}
@@ -176,7 +177,7 @@ position_data %>% print_section('Work_2')
 Second page sidebar {.aside .extra-sidebar}
 ================================================================================
 
-![logo](rubixSolved.png){width=90%}
+![logo](here('images','rubixSolved.png')){width=90%}
 <br>
 <br>
 
