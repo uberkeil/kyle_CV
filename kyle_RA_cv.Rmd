@@ -48,7 +48,7 @@ position_data <- read_csv(here('data','positions.csv')) %>%
 Aside
 ================================================================================
 
-![logo](here('images','rubixTest.png')){width=90%}
+![logo](rubixTest.png){width=90%}
 
 
 Contact Info {#contact}
@@ -177,7 +177,8 @@ position_data %>% print_section('Work_2')
 Second page sidebar {.aside .extra-sidebar}
 ================================================================================
 
-![logo](here('images','rubixSolved.png')){width=90%}
+![logo](rubixSolved.png){width=90%}
+
 <br>
 <br>
 

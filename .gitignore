@@ -3,8 +3,12 @@ to_add.R
 index.Rmd
 .gitignore
 .Rproj.user
+<<<<<<< HEAD
+.Rproj.user/*
+=======
 *.html
 *.Rpoj
 drafts
 drafts/*
 .Rhistory
+>>>>>>> new-feature
