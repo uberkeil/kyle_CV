@@ -48,7 +48,7 @@ position_data <- read_csv(here('data','positions.csv')) %>%
 Aside
 ================================================================================
 
-![logo](rubixTest.png){width=90%}
+![logo](rubixPuzzle.png){width=90%}
 
 
 Contact Info {#contact}
