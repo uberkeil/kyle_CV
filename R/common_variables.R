@@ -3,7 +3,7 @@
 # Header with description of what is trying to be accomplished with this CV/Resume
 my_title <- "Spreadsheet Savvy  &nbsp; | &nbsp;  Data Analyst &nbsp; | &nbsp; R Language Enthusiast"
 
-intro_text <- "Driven and inquisitive self starter with strong administrative acumen and fluency in a vast suite of 
+intro_text <- "Driven and inquisitive self starter, with strong administrative acumen, and fluency in a suite of 
 tools particular to data analytics.  A background in Psychological Science, with over 3 years of 
 hands-on experience working on a variety of different data analysis projects has shaped me into a highly
 capable researcher, data storyteller, and science communicator."
