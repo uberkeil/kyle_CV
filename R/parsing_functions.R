@@ -103,7 +103,7 @@ build_skill_bars <- function(skills, out_of = 5, bar_color = "#66AED7", bar_back
               "{bar_background} {width_percent_2}%)\" >", 
               "{skill}", 
               "</div>"
-              )
+    )
 }
 
 # skills %>% 
@@ -116,4 +116,3 @@ build_skill_bars <- function(skills, out_of = 5, bar_color = "#66AED7", bar_back
 #      "{skill}",
 #      "</div>"
 #    )
-
