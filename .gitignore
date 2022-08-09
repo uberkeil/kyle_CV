@@ -3,7 +3,6 @@
 .RData
 .Ruserdata
 *.html
-.Rproj*
 drafts
 drafts/*
 .Rproj*

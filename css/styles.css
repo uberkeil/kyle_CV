@@ -82,7 +82,7 @@ sup {
 }
 
 .fa-caret-right{
-  margin-left: -22px;
+  margin-left: -16px;
 }
 
 
@@ -157,7 +157,7 @@ sup {
 
 .skill-bar {
   color: white;
-/*  text-shadow: 1px 1px 1px rgba(0,0,0,0.5); */
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5); 
   padding: 0.1rem 0.25rem;
   margin-top: 3px;
   position: relative;

@@ -48,7 +48,7 @@ position_data <- read_csv(here('data', 'positions.csv')) %>%
 Aside
 ================================================================================
 
-![logo](rubixTest.png){width=90%}
+![logo](rubixSolved.png){width=90%}
 
 
 Contact Info {#contact}
@@ -210,7 +210,7 @@ my_contacts
 ```
 
 
-<p style = "margin: 4em -0em 0em;">
+<p style = "margin: 2em -0em 0em;">
 Additional Skills {#add-skills}
 --------------------------------------------------------------------------------
 ```{r}
