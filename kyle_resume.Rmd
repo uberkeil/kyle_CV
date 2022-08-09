@@ -26,12 +26,12 @@ PDF_EXPORT <- FALSE
 # Holds all the links that were inserted for placement at the end
 links <- c()
 
-source(here('R','parsing_functions.R')) # Functions for building sections from CSV data
+source(here('R', 'parsing_functions.R')) # Functions for building sections from CSV data
 source(here('R', 'common_variables.R'))  # Small variables for non-csv data such as intro text
 
 # First let's get the data, filtering to only the items tagged as
 # Resume items
-position_data <- read_csv(here('data','positions.csv')) %>% 
+position_data <- read_csv(here('data', 'positions.csv')) %>% 
   filter(in_resume) #%>% 
 #  mutate(
 #    # Build some custom sections by collapsing others
@@ -61,7 +61,7 @@ my_contacts <- glue("
 - <i class='fab fa-github'></i> github.com/uberkeil
 - <i class='fab fa-linkedin-in'></i> /kyle-p-simpson
 - <i class='fa fa-phone'></i> (403) 315-7669
-- <i class='fa fa-home'></i> Toronto, Ont, M6R 0A4")
+- <i class='fa fa-home'></i> Amherst, MA, 01002")
 my_contacts
 ```
 
@@ -178,7 +178,6 @@ Second page sidebar {.aside .extra-sidebar}
 ================================================================================
 
 ![logo](rubixSolved.png){width=90%}
-
 <br>
 <br>
 
@@ -222,11 +221,11 @@ other_skills <- glue("
 
 {fa_skills} Survey Design
 
-{fa_skills} Agile Methodologies
+{fa_skills} Agile/JIRA 
 
-{fa_skills} CRM 
+{fa_skills} CRM (Salesforce)
 
-{fa_skills} Git
+{fa_skills} Git Version Control
 
 {fa_skills} Statistical Modelling
 
@@ -244,7 +243,7 @@ other_skills <- glue("
 
 {fa_skills} Mentoring
 
-{fa_skills} Active Learning
+{fa_skills} Active Listening
 ")
 
 other_skills
