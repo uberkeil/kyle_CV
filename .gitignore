@@ -4,4 +4,6 @@
 .Ruserdata
 *.html
 .Rproj*
-drafts/ drafts/*
+drafts
+drafts/*
+.Rproj*
