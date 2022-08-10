@@ -47,11 +47,10 @@ position_data <- read_csv(here('data', 'positions.csv')) %>%
 
 Aside
 ================================================================================
+![cube_1](rubixPuzzle.png){width=75%}   
 
-![logo](rubixSolved.png){width=90%}
 
-
-Contact Info {#contact}
+&nbsp; &nbsp; Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -68,7 +67,7 @@ my_contacts
 
 <p style = "margin: 4em 0em 0em;">
 
-Data-centric Skills {#skills}
+&nbsp; &nbsp; Data-centric Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -79,15 +78,17 @@ build_skill_bars(skills)
 
 <p style = "margin: 8em 0em 0em;">
 
-Visa Status {#visa}
+&nbsp; &nbsp; Visa Status {#visa}
 --------------------------------------------------------------------------------
 <head>	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> </head>
 
-- <i class="fab fa-canadian-maple-leaf" style = "font-size:16px"></i> &nbsp; Citizen by birth
+- <i class="fab fa-canadian-maple-leaf" style = "font-size:16px"></i> &nbsp; Canadian Citizen
 
-- <i class='fa fa-kiwi-bird'></i> &nbsp; Naturalized Citizen
+- <i class='fa fa-kiwi-bird'></i> &nbsp; New Zealand Citizen
 
-- <i class='fas fa-flag-usa' style = "font-size:12px"></i> &nbsp; TN1/H1B Eligible 
+- <i class='fas fa-flag-usa' style = "font-size:12px"></i> &nbsp; TN1 Eligible For USA 
+<br> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Research Assistant)
 
 </p>
 
@@ -161,7 +162,7 @@ position_data %>% print_section('Work_2')
 
 ```{css, echo=FALSE}
 .extra-sidebar {
-  top: 0;
+  top: .35in;
   padding-top: 0;
 }
 
@@ -177,11 +178,11 @@ position_data %>% print_section('Work_2')
 Second page sidebar {.aside .extra-sidebar}
 ================================================================================
 
-![logo](rubixSolved.png){width=90%}
+![cube_2](rubixSolved.png){width=75%}
 <br>
 <br>
 
-Contact Info {#contact}
+&nbsp; &nbsp; Contact Info {#contact}
 --------------------------------------------------------------------------------
 ```{r}
 my_contacts
@@ -210,8 +211,8 @@ my_contacts
 ```
 
 
-<p style = "margin: 2em -0em 0em;">
-Additional Skills {#add-skills}
+<p style = "margin: 2em 12em 0em;">
+&nbsp; &nbsp; Additional Skills {#add-skills}
 --------------------------------------------------------------------------------
 ```{r}
 
@@ -251,8 +252,8 @@ other_skills
 ```
 </p>
 
-<p style = "margin: 7em 0em 0em;">
-References {#more-info}
+<p style = "margin: 2em 0em 0em;">
+&nbsp; &nbsp; References {#more-info}
 --------------------------------------------------------------------------------
 
 - *Available upon request*
@@ -260,18 +261,15 @@ References {#more-info}
 </p>
 
 
+
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
-<p style = "margin: 0em 0em 0em;">
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
-
-Source code: [github.com/uberkeil/kyle_CV](https://github.com/uberkeil/kyle_CV).
-
+<p style = "margin: -11em 0em 0em;">
+Made w/ [**pagedown**](https://github.com/rstudio/pagedown). <br>
+Source code: [github.com/uberkeil/kyle_CV](https://github.com/uberkeil/kyle_CV).<br>
 Last updated on `r Sys.Date()`.
-
-</p>
-
 <br>
 <br>
-
+<br>
 Page 2 of 2
+</p>
