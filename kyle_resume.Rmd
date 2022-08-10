@@ -50,7 +50,7 @@ Aside
 ![cube_1](rubixPuzzle.png){width=75%}   
 
 
-&nbsp; &nbsp; Contact Info {#contact}
+&nbsp; Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -65,20 +65,18 @@ my_contacts
 ```
 
 
-<p style = "margin: 4em 0em 0em;">
 
-&nbsp; &nbsp; Data-centric Skills {#skills}
+&nbsp; Data-centric Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
 build_skill_bars(skills)
 ```
 
-</p>
 
 <p style = "margin: 8em 0em 0em;">
 
-&nbsp; &nbsp; Visa Status {#visa}
+&nbsp; Visa Status {#visa}
 --------------------------------------------------------------------------------
 <head>	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> </head>
 
@@ -86,10 +84,9 @@ build_skill_bars(skills)
 
 - <i class='fa fa-kiwi-bird'></i> &nbsp; New Zealand Citizen
 
-- <i class='fas fa-flag-usa' style = "font-size:12px"></i> &nbsp; TN1 Eligible For USA 
-<br> 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Research Assistant)
-
+- <i class='fas fa-flag-usa' style = "font-size:12px"></i> &nbsp; [USA TN1 Eligible](https://www.lawfirm4immigrants.com/tn-visa-for-research-assistant/)
+<p stype = "margin: -0.20em 0cm 0em;">
+ &nbsp; &nbsp; &nbsp; &nbsp; [- *Research Assistant*](https://www.lawfirm4immigrants.com/tn-visa-for-research-assistant/)
 </p>
 
 Disclaimer {#disclaimer}
@@ -182,7 +179,7 @@ Second page sidebar {.aside .extra-sidebar}
 <br>
 <br>
 
-&nbsp; &nbsp; Contact Info {#contact}
+&nbsp; Contact Info {#contact}
 --------------------------------------------------------------------------------
 ```{r}
 my_contacts
@@ -211,8 +208,8 @@ my_contacts
 ```
 
 
-<p style = "margin: 2em 12em 0em;">
-&nbsp; &nbsp; Additional Skills {#add-skills}
+<p style = "margin: 5em 12em 0em;">
+&nbsp; Additional Skills {#add-skills}
 --------------------------------------------------------------------------------
 ```{r}
 
@@ -252,12 +249,11 @@ other_skills
 ```
 </p>
 
-<p style = "margin: 2em 0em 0em;">
-&nbsp; &nbsp; References {#more-info}
+<p style = "margin: 5em 0em 0em;">
+&nbsp; References {#more-info}
 --------------------------------------------------------------------------------
 
 - *Available upon request*
-
 </p>
 
 
@@ -265,9 +261,9 @@ other_skills
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 <p style = "margin: -11em 0em 0em;">
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown). <br>
-Source code: [github.com/uberkeil/kyle_CV](https://github.com/uberkeil/kyle_CV).<br>
-Last updated on `r Sys.Date()`.
+Made w/ [*pagedown*](https://github.com/rstudio/pagedown). <br>
+Last updated on `r Sys.Date()`. <br>
+View my source code [here.](https://github.com/uberkeil/kyle_CV)
 <br>
 <br>
 <br>
