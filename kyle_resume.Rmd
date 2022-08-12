@@ -42,6 +42,12 @@ position_data <- read_csv(here('data', 'positions.csv')) %>%
 #    )
 #  ) 
 
+### NOTES!!!!!
+
+# Increase font size
+# Remove superfluous sections, eg (mentoring, class tutor, etc (as that might apply to other job listings at least)
+# Follow up with Topresume regarding meaning of 'visually uneven'.
+
 ```
 
 
