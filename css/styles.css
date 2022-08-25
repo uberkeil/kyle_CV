@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Kodchasan|Lora&display=swap");
-
+@import url(https://use.fontawesome.com/releases/v5.8.1/css/all.css);
 
 @page {  
     background: 0% 0% / 100% 5% linear-gradient(to left, var(--sidebar-background-color) var(--sidebar-width), white var(--sidebar-background-width));
@@ -66,17 +66,22 @@ sup {
 
 .fa-canadian-maple-leaf{
   margin-left: 7px;
+  font-size: 17px;
+  margin-right: 0.25em;
 }
 
 .fa-kiwi-bird{
   margin-left: 9px;
+  margin-right: 0.5em;
+  padding_right: 0.5em;
 }
 
 .fa-flag-usa{
   margin-left: 10px;
+  font-size: 12px;
+  margin-right:0.25em;
+  padding-right:0.25em;
 }
-
-
 
 .fa-superpowers{
   margin-left: -20px;
@@ -89,7 +94,6 @@ sup {
 .fa-caret-right{
   margin-left: 7px;
 }
-
 
 .fa-envelope{
   margin-left: 18px;
@@ -120,8 +124,6 @@ sup {
 }
 
 
-
-
 /* When we have links at bottom in a list make sure they actually are numbered */
 #links li {
   list-style-type: decimal;
@@ -136,6 +138,7 @@ sup {
 .aside ul {
   padding-left: 1rem;
 }
+
 
 img {
   margin-left: 2.5em;
@@ -175,3 +178,15 @@ img {
   margin-left: 1rem;
 }
 
+.extra-sidebar {
+  top: .35in;
+  padding-top: 0;
+}
+
+.extra-sidebar h1 {
+  display: none;
+}
+
+.extra-sidebar .level2:first-of-type {
+  margin-top: 0;
+}

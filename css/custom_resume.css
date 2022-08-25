@@ -1,3 +1,8 @@
+/* Customize some of the sizing variables */
+:root {
+  --sidebar-width: 13.55rem !important; /* Shrink sidebar width  */
+  --sidebar-horizontal-padding: 0.02in; /* Reduce sidebar padding */
+}
 
 * {
   /* Override default right margin for sidebar*/
@@ -7,27 +12,9 @@
   --pagedjs-margin-bottom: 0.2in;
 }
 
-[data-id="main"] { 
-  padding: 0 0.05in 0 0.05in;
-}
-
-[data-id="title"] {
-  margin: 0.33in -3.5em  0in; /* For Centre: 0.5in 5.5in 0in; */
-}
-
 .main-block {
   margin-top: 0;
   margin-left: -0.1in;
-}
-
-/* Customize some of the sizing variables */
-:root {
-  --sidebar-width: 13.55rem !important; /* Shrink sidebar width  */
-  --sidebar-horizontal-padding: 0.02in; /* Reduce sidebar padding */
-}
-
-[data-id="main"]{
-  width: calc(var(--main-width) + 0.2in);
 }
 
 .aside {
@@ -42,22 +29,92 @@
   margin-top: 0.315in;
 }
 
+.aside h2 {
+  margin-left: 0.7rem;
+}
+
 .aside p {
   margin-block-start: 0.75em;
   margin-block-end: 0;
 }
 
-[data-id="skills"] ul {
-  margin: 0.05in 0 0.05in;
+[data-id="main"] { 
+  padding: 0 0.05in 0 0.05in;
 }
+
+[data-id="main"]{
+  width: calc(var(--main-width) + 0.2in);
+}
+
+[data-id="title"] {
+  margin: 0.33in -3.5em  0in; /* For Centre: 0.5in 5.5in 0in; */
+}
+
+[data-id="title"] h1 {
+  margin-bottom: -0.25em;
+  padding-bottom: -0.25em;
+}
+
+[data-id="title"] p{
+  font-size: 2;
+  margin_bottom: 0.75em;
+  padding-right: 1in;
+} 
+
+[data-id="title"] p:nth-child(2){
+  font-size: 4;
+  color:black;
+  font-weight: 900;
+} 
+
+
+[data-id="title"] p:nth-child(3){
+  padding-bottom: 2em;
+  text-align: justify;
+} 
 
 [data-id="contact"] ul {
   padding-left: 0 !important;
   margin-top: 0.75rem;
 }
 
+[data-id="skills"] ul {
+  margin: 0.05in 0 0.05in;
+}
+
+[data-id="skills"] {
+  padding-top: 1.5rem;
+}
+
+
+[data-id="add_skills"] {
+  padding-top: 3rem;
+}
+
+[data-id="add-skills"] li {
+  margin: 10px 0;
+}
+
+
+[data-id="visa"] {
+  padding-top: 3rem;
+}
+
+[data-id="visa"] li{
+  margin: 10px 0;
+}
+
+[data-id="more-info"] {
+  padding-top: 2rem;
+}
 
 [data-id="disclaimer"] p {
   margin-block-start: 0.15em;
   margin-block-end: 0.15em;
+  margin_bottom: 2em;
+  padding_bottom: 2em;
+}
+
+[data-id="academic"] {
+  margin-top: 0.33in;
 }
