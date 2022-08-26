@@ -1,20 +1,19 @@
 # Common non-csv data between CV and resume
 
 # Header with description of what is trying to be accomplished with this CV/Resume
-my_title <- glue("Spreadsheet Savvy  &nbsp; | &nbsp;  Data Analyst &nbsp; | &nbsp; R Language Enthusiast")
+my_title <- glue("Spreadsheet Savvy  &nbsp; | &nbsp;  Data Entry Specialist &nbsp; | &nbsp; R Language Enthusiast")
 
-intro_text <- glue("Driven and inquisitive self starter, with strong administrative acumen, and fluency in a vast suite of tools particular to data analytics.  An educational background in Psychological Sciences, and over 3 years experience working as a freelance data analyst has shaped me into a highly capable researcher, data storyteller, and science communicator.")
+intro_text <- glue("I am a Canadian/New Zealand dual citizen with over 8 years professional history working in roles with a strong component of data entry and analysis. A driven and inquisitive self starter, with strong administrative acumen, and fluency in a vast suite of tools particular to data analysis & office administration.")
 
 # Language skills for skill bars visualization
 skills <- tribble(
   ~skill,               ~level,
   "Excel/Google Sheets",4.75,
   "R",                  4.75,
-  "SPSS",               4,
-  "SQL",                4,
+  "mySQL",              4,
   "Tableau",            4,
-  "Bash",               3.55,
-  "Python",             3.55
+  "Python",             3.55,
+  "Power BI",           2.55
 )
 
 # Contact infromation 
@@ -30,20 +29,13 @@ my_contacts <- glue("
 fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
 
 other_skills <- glue("
-
-{fa_skills} Survey Design
 {fa_skills} Agile/JIRA 
 {fa_skills} CRM (Salesforce)
-{fa_skills} Git Version Control
-{fa_skills} Statistical Modelling
 {fa_skills} Process Improvement
 {fa_skills} Critical Thinking
 {fa_skills} Time Management 
-{fa_skills} Interpersonal Skills
+{fa_skills} Verbal & Written Communication
 {fa_skills} Leadership
-{fa_skills} Public Speaking
-{fa_skills} Mentoring
-{fa_skills} Active Listening
 ")
 
 # Build something similar for visa status...because it's a fucking mess. 

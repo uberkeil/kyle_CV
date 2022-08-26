@@ -27,9 +27,6 @@ source(here('R', 'common_variables.R'))  # Small variables for non-csv data such
 
 position_data <- read_csv(here('data', 'positions.csv')) %>% # First let's get the data, filtering to only the items tagged as resume items
   filter(in_resume) 
-#%>% # Build some custom sections by collapsing others
-#   mutate(section = case_when(section %in% c('research_positions', 'industry_positions') ~ 'positions', 
-#   section %in% c('data_science_writings', 'by_me_press') ~ 'writings', TRUE ~ section)) 
 
 ```
 
@@ -44,84 +41,11 @@ Contact Info {#contact}
 my_contacts 
 ```
 
-Data-centric Skills {#skills}
+Relevant Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
 build_skill_bars(skills)
-```
-
-Visa Status {#visa}
---------------------------------------------------------------------------------
-
-```{r mystatus}
-my_status
-```
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-Page 1 of 2
-
-Main
-================================================================================
-
-Kyle PATRICK Simpson {#title}
---------------------------------------------------------------------------------
-
-```{r my_title}
-cat(sanitize_links(my_title)) 
-```
-
-```{r intro_text}
-cat(sanitize_links(intro_text))
-```
-
-Professional Certification {data-icon=bookmark}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('certification')
-```
-
-Recent Employment History {data-icon=briefcase}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('work_history')
-```
-
-Freelance Projects {data-icon=pie-chart data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('service')
-```
-
-\newpage
-
-Academic Experience & Accomplishments {#academic data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('education')
-```
-
-Additional Work History {data-icon=briefcase data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('Work_2')
-```
-
-Second page sidebar {.aside .extra-sidebar}
-================================================================================
-
-![cube_2](rubixSolved.png){width=75%}
-
-Contact Info {#contact}
---------------------------------------------------------------------------------
-```{r}
-my_contacts
 ```
 
 Additional Skills {#add-skills}
@@ -133,6 +57,56 @@ other_skills
 References {#more-info}
 --------------------------------------------------------------------------------
 - *Available upon request*
+
+Main
+================================================================================
+
+Kyle PATRICK Simpson {#title}
+--------------------------------------------------------------------------------
+  
+```{r my_title}
+cat(sanitize_links(my_title)) 
+```
+
+```{r intro_text}
+cat(sanitize_links(intro_text))
+```
+
+
+Employment History {data-icon=briefcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('work_history')
+```
+
+Volunteer Work & Service {data-icon=heart}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('service')
+```
+
+Education & Certification {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('education')
+```
+
+
+\newpage
+
+Second page sidebar {.aside .extra-sidebar}
+================================================================================
+
+![cube_2](rubixSolved.png){width=75%}
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+```{r}
+my_contacts
+```
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
