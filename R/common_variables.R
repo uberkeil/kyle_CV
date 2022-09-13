@@ -30,6 +30,7 @@ fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
 
 other_skills <- glue("
 {fa_skills} Toutch Typing (80 wpm)
+{fa_skills} Customer Service
 {fa_skills} Agile/JIRA 
 {fa_skills} CRM (Salesforce)
 {fa_skills} Process Improvement
