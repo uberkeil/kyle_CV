@@ -23,18 +23,19 @@ my_contacts <- glue("
 - <i class='fab fa-github'></i> github.com/uberkeil
 - <i class='fab fa-linkedin-in'></i> /kyle-p-simpson
 - <i class='fa fa-phone'></i> (403) 315-7669
-- <i class='fa fa-home'></i> Amherst, MA, 01002")
+- <i class='fa fa-home'></i> Scarborough, ON, M1N 3A4")
 
 #Other skills builder
 fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
 
 other_skills <- glue("
+{fa_skills} Toutch Typing (80 wpm)
 {fa_skills} Agile/JIRA 
 {fa_skills} CRM (Salesforce)
 {fa_skills} Process Improvement
 {fa_skills} Critical Thinking
 {fa_skills} Time Management 
-{fa_skills} Verbal & Written Communication
+{fa_skills} Verbal & Written <br> &nbsp; &nbsp; Communication
 {fa_skills} Leadership
 ")
 

@@ -80,7 +80,7 @@ Employment History {data-icon=briefcase}
 position_data %>% print_section('work_history')
 ```
 
-Volunteer Work & Service {data-icon=heart}
+Volunteer Work & Service {data-icon=hand-holding-heart}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -94,23 +94,3 @@ Education & Certification {data-icon=graduation-cap data-concise=true}
 position_data %>% print_section('education')
 ```
 
-
-\newpage
-
-Second page sidebar {.aside .extra-sidebar}
-================================================================================
-
-![cube_2](rubixSolved.png){width=75%}
-
-Contact Info {#contact}
---------------------------------------------------------------------------------
-```{r}
-my_contacts
-```
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-```{r my_disclaimer}
-my_disclaimer
-```
-Page 2 of 2

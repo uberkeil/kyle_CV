@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Kodchasan|Lora&display=swap");
-@import url(https://use.fontawesome.com/releases/v5.8.1/css/all.css);
+@import url("https://use.fontawesome.com/releases/v6.2.0/css/all.css");
 
 @page {  
     background: 0% 0% / 100% 5% linear-gradient(to left, var(--sidebar-background-color) var(--sidebar-width), white var(--sidebar-background-width));
