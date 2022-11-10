@@ -13,7 +13,8 @@ skills <- tribble(
   "mySQL",              4,
   "Tableau",            4,
   "Python",             3.55,
-  "Power BI",           2.55
+  "Power BI",           2.55,
+  "Salesforce",         4
 )
 
 # Contact infromation 
@@ -22,8 +23,8 @@ my_contacts <- glue("
 - <i class='fab fa-twitter'></i> _Kyle_Simpson
 - <i class='fab fa-github'></i> github.com/uberkeil
 - <i class='fab fa-linkedin-in'></i> /kyle-p-simpson
-- <i class='fa fa-phone'></i> (403) 315-7669
-- <i class='fa fa-home'></i> Scarborough, ON, M1N 3A4")
+- <i class='fa fa-phone'></i> (226) 337 5258
+- <i class='fa fa-home'></i> Toronto, ON, M5S 2N5")
 
 #Other skills builder
 fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
@@ -32,7 +33,6 @@ other_skills <- glue("
 {fa_skills} Toutch Typing (80 wpm)
 {fa_skills} Customer Service
 {fa_skills} Agile/JIRA 
-{fa_skills} CRM (Salesforce)
 {fa_skills} Process Improvement
 {fa_skills} Critical Thinking
 {fa_skills} Time Management 
