@@ -8,7 +8,7 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 ---
-
+  
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
   results='asis', 
@@ -32,31 +32,68 @@ position_data <- read_csv(here('data', 'positions.csv')) %>% # First let's get t
 
 Aside
 ================================================================================
-![cube_1](rubixPuzzle.png){width=75%}   
 
-Contact Info {#contact} 
+{#contact} 
 --------------------------------------------------------------------------------
 
 ```{r}
-my_contacts 
+cat(sanitize_links(my_contacts))
 ```
 
-Relevant Skills {#skills}
+Technical Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
 build_skill_bars(skills)
 ```
 
-Additional Skills {#add-skills}
+Other Skills {#add-skills}
 --------------------------------------------------------------------------------
-```{r}
+```{r otherr_skills}
 other_skills
 ```
 
-References {#more-info}
+Education {#education_1}
 --------------------------------------------------------------------------------
-- *Available upon request*
+
+```{r edu_degree}
+cat(sanitize_links(edu_degree))
+```
+
+```{r edu_location}
+cat(sanitize_links(edu_location))
+```
+
+```{r edu_date}
+cat(sanitize_links(edu_date))
+```
+
+```{r edu_city}
+cat(sanitize_links(edu_city))
+```
+
+Certification {#certificate}
+--------------------------------------------------------------------------------
+```{r cert_degree}
+cat(sanitize_links(cert_degree))
+```
+
+```{r cert_location}
+cat(sanitize_links(cert_location))
+```
+
+```{r cert_date}
+cat(sanitize_links(cert_date))
+```
+
+```{r cert_city}
+cat(sanitize_links(cert_city))
+```
+
+Disclaimer {#disclaimer} 
+-------------------------------------------------------------------------------- 
+Page 1 of 1 
+
 
 Main
 ================================================================================
@@ -72,25 +109,10 @@ cat(sanitize_links(my_title))
 cat(sanitize_links(intro_text))
 ```
 
-
-Employment History {data-icon=briefcase}
+Recent Employment History {data-icon=briefcase}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('work_history')
-```
-
-Volunteer Work & Service {data-icon=hand-holding-heart}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('service')
-```
-
-Education & Certification {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('education')
 ```
 
