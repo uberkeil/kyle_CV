@@ -3,7 +3,7 @@
 # Header with description of what is trying to be accomplished with this CV/Resume
 my_title <- glue("Data Entry Specialist &nbsp; | &nbsp;  Office Administrator &nbsp; | &nbsp; Data Analyst")
 
-intro_text <- glue("With over 15 years in customer-facing roles and 5+ years specializing in data entry and analytics, I confidently bridge the gap between interpersonal and analytical skills. A driven and inquisitive self-starter with strong administrative acumen, and fluency in a vast suite of tools particular to office administration, data analysis, and customer service and relations.")
+intro_text <- glue("With over 15 years in customer-facing roles and 5+ years specializing in data entry and analytics, I confidently bridge the gap between interpersonal, analytical, and technical skills. A driven and inquisitive self-starter with strong administrative acumen, and fluency in a vast suite of tools particular to office administration, data analysis, and customer service and relations.")
 
 # Contact infromation 
 my_contacts <- glue("
