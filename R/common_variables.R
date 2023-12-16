@@ -7,7 +7,7 @@ intro_text <- glue("With over 15 years in customer-facing roles and 5+ years spe
 
 # Contact infromation 
 my_contacts <- glue("
-- <i class='fa fa-envelope'></i> kyle.p.simpson@gmail.com
+- <i class='fa fa-envelope'></i> kyle.p.simpson&#64;gmail.com
 - <i class='fab fa-twitter'></i> _Kyle_Simpson
 - <i class='fab fa-github'></i> github.com/uberkeil
 - <i class='fab fa-linkedin-in'></i> /kyle-p-simpson
