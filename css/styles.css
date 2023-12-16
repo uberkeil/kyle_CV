@@ -86,18 +86,21 @@ sup {
 
 .fa-github{
   margin-left: 18px;
+  margin-right: 1px;
 }
 
 .fa-linkedin-in{
   margin-left: 18px;
+  margin-right: 1px;
 }
 
 .fa-phone{
-  margin-left: 18px;
+  margin-left: 19px;
 }
 
 .fa-home{
-  margin-left: 18px;
+  margin-left: 20px;
+  margin-right: -1px;
 }
 
 
