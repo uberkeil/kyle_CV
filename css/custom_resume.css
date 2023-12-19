@@ -46,6 +46,10 @@
   width: calc(var(--main-width) + 0.2in);
 }
 
+[data-id="main"] ul li{
+  margin-bottom: 7px;
+}
+
 [data-id="title"] {
   margin: 0.33in -3.5em  0in; /* For Centre: 0.5in 5.5in 0in; */
 }
