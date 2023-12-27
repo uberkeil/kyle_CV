@@ -109,10 +109,40 @@ cat(sanitize_links(my_title))
 cat(sanitize_links(intro_text))
 ```
 
-Recent Employment History {data-icon=briefcase}
+Relevant Work History {data-icon=briefcase}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('work_history')
 ```
 
+
+\newpage
+
+Additional Work Experience {data-icon=briefcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('work_history_2')
+```
+
+Service & Internships {data-icon=heart}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('service')
+```
+
+Second page sidebar {.aside .extra-sidebar}
+================================================================================
+
+{#contact}
+--------------------------------------------------------------------------------
+```{r}
+my_contacts
+```
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Page 2 of 2

@@ -119,7 +119,7 @@ Professional Certification {data-icon=bookmark}
 --------------------------------------------------------------------------------
 
 ```{r}
-position_data %>% print_section('certification')
+#position_data %>% print_section('certification')
 ```
 
 Recent Employment History {data-icon=briefcase}
@@ -135,7 +135,7 @@ Freelance Projects {data-icon=pie-chart data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
-position_data %>% print_section('service')
+#position_data %>% print_section('service')
 ```
 
 \newpage
@@ -146,7 +146,7 @@ Academic Experience & Accomplishments {data-icon=graduation-cap data-concise=tru
 --------------------------------------------------------------------------------
 
 ```{r}
-position_data %>% print_section('education')
+#position_data %>% print_section('education')
 ```
 
 
@@ -154,7 +154,7 @@ Additional Work History {data-icon=briefcase data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
-position_data %>% print_section('Work_2')
+#position_data %>% print_section('Work_2')
 ```
 
 
