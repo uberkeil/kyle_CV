@@ -142,7 +142,15 @@ Second page sidebar {.aside .extra-sidebar}
 my_contacts
 ```
 
-Disclaimer {#disclaimer}
+Disclaimer {#disclaimer_2}
 --------------------------------------------------------------------------------
+<p style = "margin: 0em 0em 0em;">
+Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
+
+Source code: [github.com/uberkeil/kyle_CV](https://github.com/uberkeil/kyle_CV).
+
+Last updated on `r Sys.Date()`.
+
+</p>
 
 Page 2 of 2
