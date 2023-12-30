@@ -109,7 +109,7 @@ cat(sanitize_links(my_title))
 cat(sanitize_links(intro_text))
 ```
 
-Relevant Work History {data-icon=briefcase}
+Relevant Work History {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -117,7 +117,7 @@ position_data %>% print_section('work_history')
 ```
 
 
-\newpage
+\newpage <br>
 
 Additional Work Experience {data-icon=briefcase}
 --------------------------------------------------------------------------------
@@ -126,7 +126,7 @@ Additional Work Experience {data-icon=briefcase}
 position_data %>% print_section('work_history_2')
 ```
 
-Service & Internships {data-icon=heart}
+Service & Internships {data-icon=bookmark}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -142,15 +142,30 @@ Second page sidebar {.aside .extra-sidebar}
 my_contacts
 ```
 
-Disclaimer {#disclaimer_2}
+Licences & Certificates {#l_and_c}
 --------------------------------------------------------------------------------
-<p style = "margin: 0em 0em 0em;">
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
+```{r}
+licenses
+```
 
-Source code: [github.com/uberkeil/kyle_CV](https://github.com/uberkeil/kyle_CV).
+Hobbies {#hobbies}
+--------------------------------------------------------------------------------
+```{r}
+hobbies
+```
 
-Last updated on `r Sys.Date()`.
 
-</p>
 
-Page 2 of 2
+References {#references}
+--------------------------------------------------------------------------------
+```{r}
+my_references
+```
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+```{r}
+my_disclaimer
+```

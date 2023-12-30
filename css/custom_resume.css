@@ -156,3 +156,21 @@
   margin_bottom: 2em;
   padding_bottom: 2em;
 }
+
+[data-id="l_and_c"] {
+  padding-top: 0em;
+}
+
+[data-id="l_and_c"] li {
+  margin: 10px 0;
+  margin-bottom: 0em;
+}
+
+[data-id="hobbies"] li {
+  margin: 10px 0;
+  margin-bottom: 0em;
+}
+
+[data-id="references"] li {
+  margin-left: 20px;
+}
