@@ -148,21 +148,43 @@ Licences & Certificates {#l_and_c}
 licenses
 ```
 
+Languages {#my_languages}
+--------------------------------------------------------------------------------
+```{r}
+cat(sanitize_links(language_1))
+```
+
+```{r}
+cat(sanitize_links(proficiency_1))
+```
+
+```{r}
+cat(sanitize_links(language_2))
+```
+
+```{r}
+cat(sanitize_links(proficiency_2))
+```
+
+```{r}
+cat(sanitize_links(language_3))
+```
+
+```{r}
+cat(sanitize_links(proficiency_3))
+```
+
 Hobbies {#hobbies}
 --------------------------------------------------------------------------------
 ```{r}
 hobbies
 ```
 
-
-
 References {#references}
 --------------------------------------------------------------------------------
 ```{r}
 my_references
 ```
-
-
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------

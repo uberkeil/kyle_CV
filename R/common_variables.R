@@ -53,6 +53,18 @@ cert_location <- glue("Google Careers Certification")
 cert_date <- glue("June, 2021")
 cert_city <- glue("Coursera")
 
+#Languages
+
+language_1 <- glue("English")
+proficiency_1 <- glue("Fluent/Native")
+
+language_2 <- glue("French")
+proficiency_2 <- glue("Beginner/Basic")
+
+language_3 <- glue("Te Reo Maori")
+proficiency_3 <- glue("Beginner/Basic")
+
+
 #Licenses and Certificates 
 licenses <- glue("
                  {fa_skills} Driver's License (G2)
