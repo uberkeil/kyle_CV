@@ -61,7 +61,7 @@ proficiency_1 <- glue("Fluent/Native")
 language_2 <- glue("French")
 proficiency_2 <- glue("Beginner/Basic")
 
-language_3 <- glue("Te Reo Maori")
+language_3 <- glue("Te Reo Māori")
 proficiency_3 <- glue("Beginner/Basic")
 
 

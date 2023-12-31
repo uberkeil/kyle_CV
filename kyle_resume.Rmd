@@ -174,7 +174,7 @@ cat(sanitize_links(language_3))
 cat(sanitize_links(proficiency_3))
 ```
 
-Hobbies {#hobbies}
+Hobbies & <br> Interests {#hobbies}
 --------------------------------------------------------------------------------
 ```{r}
 hobbies
