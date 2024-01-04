@@ -40,8 +40,6 @@ Aside
 cat(sanitize_links(my_contacts))
 ```
 
-<br>
-
 Skills {#add-skills}
 --------------------------------------------------------------------------------
 ```{r otherr_skills}
