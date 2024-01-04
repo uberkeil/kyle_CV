@@ -30,6 +30,13 @@ skills <- tribble(
 fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
 
 other_skills <- glue("
+{fa_skills} Excel/Google Sheets
+{fa_skills} R
+{fa_skills} Python
+{fa_skills} SQL
+{fa_skills} Tableau
+{fa_skills} Power BI
+{fa_skills} CRM (Salesforce)
 {fa_skills} Data Visualization/Reporting
 {fa_skills} Analytical Skills
 {fa_skills} Qualitative Research 
