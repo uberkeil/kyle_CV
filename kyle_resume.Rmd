@@ -42,7 +42,7 @@ cat(sanitize_links(my_contacts))
 
 Skills {#add-skills}
 --------------------------------------------------------------------------------
-```{r otherr_skills}
+```{r other_skills}
 other_skills
 ```
 

@@ -86,7 +86,8 @@
 }
 
 [data-id="add_skills"] {
-l}
+  padding-top: 3rem;
+}
 
 [data-id="add-skills"] li {
   margin: 10px 0;
@@ -156,7 +157,7 @@ l}
 }
 
 [data-id="l_and_c"] {
-  padding-top: 0em;
+  padding-top: 1em;
 }
 
 [data-id="l_and_c"] li {
