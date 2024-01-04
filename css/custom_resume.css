@@ -72,6 +72,10 @@
   padding-right: 1in;
 } 
 
+[data-id="contact"] {
+  margin-bottom: -1em;
+}
+
 [data-id="contact"] ul {
   padding-left: 0 !important;
   margin-top: -0.15em;
@@ -82,7 +86,7 @@
 }
 
 [data-id="skills"] {
-  padding-top: 1em;
+  padding-top: -1em;
 }
 
 [data-id="add_skills"] {

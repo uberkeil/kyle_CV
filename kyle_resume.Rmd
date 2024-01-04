@@ -40,7 +40,13 @@ Aside
 cat(sanitize_links(my_contacts))
 ```
 
-Skills {#add-skills}
+Technical Skills {#skills}
+--------------------------------------------------------------------------------
+```{r}
+build_skill_bars(skills)
+```
+
+Additional Skills {#add-skills}
 --------------------------------------------------------------------------------
 ```{r other_skills}
 other_skills
