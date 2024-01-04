@@ -23,7 +23,7 @@ skills <- tribble(
   "Tableau",            4,
   "Python",             3.55,
   "Power BI",           2.55,
-  "Salesforce",         4
+  "HTML5/CSS",          4
 )
 
 #Other skills builder
@@ -31,12 +31,12 @@ fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
 
 other_skills <- glue("
 {fa_skills} Data Visualization/ <br> &nbsp; &nbsp; &nbsp; Reporting
-{fa_skills} Analytical Skills
 {fa_skills} Qualitative Research 
 {fa_skills} Quantitative Research
-{fa_skills} Statistical Modelling
+{fa_skills} Statistical Modeling
 {fa_skills} Survey Design/Analysis 
 {fa_skills} Agile/JIRA
+{fa_skills} CRM (Salesforce)
 {fa_skills} Verbal & Written <br> &nbsp; &nbsp; &nbsp; Communication
 ")
 
