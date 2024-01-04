@@ -1,80 +1,97 @@
 # Common non-csv data between CV and resume
 
 # Header with description of what is trying to be accomplished with this CV/Resume
-my_title <- glue("Spreadsheet Savvy  &nbsp; | &nbsp;  Data Analyst &nbsp; | &nbsp; R Language Enthusiast")
+my_title <- glue("Data Entry Specialist &nbsp; | &nbsp;  Office Administrator &nbsp; | &nbsp; Data Analyst")
 
-intro_text <- glue("Driven and inquisitive self starter, with strong administrative acumen, and fluency in a vast suite of tools particular to data analytics.  An educational background in Psychological Sciences, and over 3 years experience working as a freelance data analyst has shaped me into a highly capable researcher, data storyteller, and science communicator.")
+intro_text <- glue("With over 15 years in customer-facing roles and 5+ years specializing in data entry and analytics, I confidently bridge the gap between interpersonal, analytical, and technical skills. A driven and inquisitive self-starter with strong administrative acumen, and fluency in a vast suite of tools particular to office administration, data analysis, and customer service & relations.")
+
+# Contact infromation 
+my_contacts <- glue("
+- <i class='fa fa-envelope'></i> kyle.p.simpson&#64;gmail.com
+- <i class='fab fa-twitter'></i> _Kyle_Simpson
+- <i class='fab fa-github'></i> github.com/uberkeil
+- <i class='fab fa-linkedin-in'></i> /kyle-p-simpson
+- <i class='fa fa-phone'></i> (226) 337 5258
+- <i class='fa fa-home'></i> Toronto, ON, M5S 2N5")
 
 # Language skills for skill bars visualization
 skills <- tribble(
   ~skill,               ~level,
   "Excel/Google Sheets",4.75,
   "R",                  4.75,
-  "SPSS",               4,
-  "SQL",                4,
+  "mySQL",              4,
   "Tableau",            4,
-  "Bash",               3.55,
-  "Python",             3.55
+  "Python",             3.55,
+  "Power BI",           2.55,
+  "Salesforce",         4
 )
-
-# Contact infromation 
-my_contacts <- glue("
-- <i class='fa fa-envelope'></i> kyle.p.simpson@gmail.com
-- <i class='fab fa-twitter'></i> _Kyle_Simpson
-- <i class='fab fa-github'></i> github.com/uberkeil
-- <i class='fab fa-linkedin-in'></i> /kyle-p-simpson
-- <i class='fa fa-phone'></i> (403) 315-7669
-- <i class='fa fa-home'></i> Amherst, MA, 01002")
 
 #Other skills builder
 fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
 
 other_skills <- glue("
-
-{fa_skills} Survey Design
-{fa_skills} Agile/JIRA 
-{fa_skills} CRM (Salesforce)
-{fa_skills} Git Version Control
+{fa_skills} Data Visualization/ <br> &nbsp; &nbsp; &nbsp; Reporting
+{fa_skills} Analytical Skills
+{fa_skills} Qualitative Research 
+{fa_skills} Quantitative Research
 {fa_skills} Statistical Modelling
-{fa_skills} Process Improvement
-{fa_skills} Critical Thinking
-{fa_skills} Time Management 
-{fa_skills} Interpersonal Skills
-{fa_skills} Leadership
-{fa_skills} Public Speaking
-{fa_skills} Mentoring
-{fa_skills} Active Listening
+{fa_skills} Survey Design/Analysis 
+{fa_skills} Agile/JIRA
+{fa_skills} Verbal & Written <br> &nbsp; &nbsp; &nbsp; Communication
 ")
 
-# Build something similar for visa status...because it's a fucking mess. 
-my_status <- glue("
-- <i class='fab fa-canadian-maple-leaf'></i> Canadian Citizen
-- <i class='fa fa-kiwi-bird'></i> New Zealand Citizen
-- <i class='fas fa-flag-usa'></i> [USA TN1 Eligible](https://www.lawfirm4immigrants.com/tn-visa-for-research-assistant/) <br>
-&emsp; &emsp; [- *Research Assistant*](https://www.lawfirm4immigrants.com/tn-visa-for-research-assistant/)
+#Presenting Education & certification credentials for sidebar
+#Education
+edu_degree <- glue("Double Bachelor of Arts in <br> Psychology & Philosophy") 
+edu_location <- glue("Victoria University of <br> Wellington")
+edu_date <- glue("November, 2019")
+edu_city <- glue("Wellington, NZ")
+
+#Certification
+cert_degree <- glue("Professional Certificate in Data Analytics")
+cert_location <- glue("Google Careers Certification")
+cert_date <- glue("June, 2021")
+cert_city <- glue("Coursera")
+
+#Languages
+
+language_1 <- glue("English")
+proficiency_1 <- glue("Fluent/Native")
+
+language_2 <- glue("French")
+proficiency_2 <- glue("Beginner/Basic")
+
+language_3 <- glue("Te Reo Māori")
+proficiency_3 <- glue("Beginner/Basic")
+
+
+#Licenses and Certificates 
+licenses <- glue("
+                 {fa_skills} Driver's License (G2)
+                 {fa_skills} Standard First Aid & <br> &nbsp; &nbsp; &nbsp; CPR/AED (Level C)
+                 ")
+
+hobbies <- glue("
+  {fa_skills} Nature & Hiking
+  {fa_skills} Cooking & Mixology
+  {fa_skills} Photography
+  {fa_skills} Brazilian Jiu Jitsu
+  {fa_skills} Audio Production
 ")
 
-
-# Second Page Disclaimer
+# Disclaimer (Page 2)
 # Work in progress
-my_disclaimer <- glue("<p style = 'margin: -11em 0em 0em;'>
-  Made w/ [*pagedown*](https://github.com/rstudio/pagedown). <br>
-  Last updated on {Sys.Date()}. <br>
-  View my source code [here.](https://github.com/uberkeil/kyle_CV) <br>
-  <br style = 'line-height:4;'>
-  </p>
-")
 
-# >
+# <br style = 'line-height:4;'>
+#Made w/ [*pagedown*](https://github.com/rstudio/pagedown). <br>
+#  Last updated on {Sys.Date()}. <br>
+#  View my source code [here.](https://github.com/uberkeil/kyle_CV) <br>
+#  <br>
+#  <br>
 
-# Additional Certification Section...if required
+my_disclaimer <- glue('<p style = "margin: -4em 0em 0em;">
+  Page 2 of 2
+</p>'
+)
 
-#my_fa <- glue("- <i class='fa fa-certificate' style='font-size:8px'></i>")
-#
-#my_certs <- glue("
-#{my_fa} Agile with Atlassian Jira
-#{my_fa} Exploratory Data Analysis
-#{my_fa} Psychological First Aid
-#{my_fa} Intro to CRM with Hubspot
-#{my_fa} Data Science Math Skills
-#")
+my_references <- glue("&nbsp; &nbsp; &ndash; Available upon request")

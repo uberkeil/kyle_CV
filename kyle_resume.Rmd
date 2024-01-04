@@ -8,7 +8,7 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 ---
-
+  
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
   results='asis', 
@@ -27,47 +27,79 @@ source(here('R', 'common_variables.R'))  # Small variables for non-csv data such
 
 position_data <- read_csv(here('data', 'positions.csv')) %>% # First let's get the data, filtering to only the items tagged as resume items
   filter(in_resume) 
-#%>% # Build some custom sections by collapsing others
-#   mutate(section = case_when(section %in% c('research_positions', 'industry_positions') ~ 'positions', 
-#   section %in% c('data_science_writings', 'by_me_press') ~ 'writings', TRUE ~ section)) 
 
 ```
 
 Aside
 ================================================================================
-![cube_1](rubixPuzzle.png){width=75%}   
 
-Contact Info {#contact} 
+{#contact} 
 --------------------------------------------------------------------------------
 
 ```{r}
-my_contacts 
+cat(sanitize_links(my_contacts))
 ```
 
-Data-centric Skills {#skills}
+Technical Skills {#skills}
 --------------------------------------------------------------------------------
-
 ```{r}
 build_skill_bars(skills)
 ```
 
-Visa Status {#visa}
+Additional Skills {#add-skills}
 --------------------------------------------------------------------------------
-
-```{r mystatus}
-my_status
+```{r other_skills}
+other_skills
 ```
 
-Disclaimer {#disclaimer}
+Education {#education_1}
 --------------------------------------------------------------------------------
-Page 1 of 2
+
+```{r edu_degree}
+cat(sanitize_links(edu_degree))
+```
+
+```{r edu_location}
+cat(sanitize_links(edu_location))
+```
+
+```{r edu_date}
+cat(sanitize_links(edu_date))
+```
+
+```{r edu_city}
+cat(sanitize_links(edu_city))
+```
+
+Certification {#certificate}
+--------------------------------------------------------------------------------
+```{r cert_degree}
+cat(sanitize_links(cert_degree))
+```
+
+```{r cert_location}
+cat(sanitize_links(cert_location))
+```
+
+```{r cert_date}
+cat(sanitize_links(cert_date))
+```
+
+```{r cert_city}
+cat(sanitize_links(cert_city))
+```
+
+Disclaimer {#disclaimer} 
+-------------------------------------------------------------------------------- 
+Page 1 of 1 
+
 
 Main
 ================================================================================
 
 Kyle PATRICK Simpson {#title}
 --------------------------------------------------------------------------------
-
+  
 ```{r my_title}
 cat(sanitize_links(my_title)) 
 ```
@@ -76,67 +108,90 @@ cat(sanitize_links(my_title))
 cat(sanitize_links(intro_text))
 ```
 
-Professional Certification {data-icon=bookmark}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('certification')
-```
-
-Recent Employment History {data-icon=briefcase}
+Relevant Work History {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('work_history')
 ```
 
-Freelance Projects {data-icon=pie-chart data-concise=true}
+
+\newpage <br>
+
+Additional Work Experience {data-icon=briefcase}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('work_history_2')
+```
+
+Service & Internships {data-icon=bookmark}
 --------------------------------------------------------------------------------
 
 ```{r}
 position_data %>% print_section('service')
 ```
 
-\newpage
-
-Academic Experience & Accomplishments {#academic data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('education')
-```
-
-Additional Work History {data-icon=briefcase data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('Work_2')
-```
-
 Second page sidebar {.aside .extra-sidebar}
 ================================================================================
 
-![cube_2](rubixSolved.png){width=75%}
-
-Contact Info {#contact}
+{#contact}
 --------------------------------------------------------------------------------
 ```{r}
 my_contacts
 ```
 
-Additional Skills {#add-skills}
+Licences & Certificates {#l_and_c}
 --------------------------------------------------------------------------------
 ```{r}
-other_skills
+licenses
 ```
 
-References {#more-info}
+Languages {#my_languages}
 --------------------------------------------------------------------------------
-- *Available upon request*
+```{r}
+cat(sanitize_links(language_1))
+```
+
+```{r}
+cat(sanitize_links(proficiency_1))
+```
+
+```{r}
+cat(sanitize_links(language_2))
+```
+
+```{r}
+cat(sanitize_links(proficiency_2))
+```
+
+```{r}
+cat(sanitize_links(language_3))
+```
+
+```{r}
+cat(sanitize_links(proficiency_3))
+```
+
+Hobbies & <br> Interests {#hobbies}
+--------------------------------------------------------------------------------
+```{r}
+hobbies
+```
+
+References {#references}
+--------------------------------------------------------------------------------
+```{r}
+my_references
+```
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
-```{r my_disclaimer}
+```{r}
 my_disclaimer
+<<<<<<< HEAD
 ```
 Page 2 of 2
+=======
+```
+>>>>>>> office_admin

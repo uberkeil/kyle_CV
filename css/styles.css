@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Kodchasan|Lora&display=swap");
-@import url(https://use.fontawesome.com/releases/v5.8.1/css/all.css);
+@import url("https://use.fontawesome.com/releases/v6.2.0/css/all.css");
 
 @page {  
     background: 0% 0% / 100% 5% linear-gradient(to left, var(--sidebar-background-color) var(--sidebar-width), white var(--sidebar-background-width));
@@ -11,6 +11,7 @@ body {
   font-weight: 300;
   line-height: 1.3;
   color: #444;
+  font-size: 2em;
 }
 
 /* Give headers Playfair+Display font */
@@ -23,7 +24,7 @@ h3 {
 
 /* When in PDF export mode make sure superscripts are nice and small and italic */
 sup {
-  font-size: 0.45rem;
+  font-size: 0.75em;
   font-style: italic;
 }
 
@@ -47,6 +48,8 @@ sup {
   --decorator-border: 2px solid #e4eaef; /* Make timeline a blue as well bdd7e7*/
 }
 
+.sidebar { height: 75vh; }
+
 .details .place {
   margin-top: 0.25rem;
 }
@@ -60,32 +63,14 @@ sup {
   margin-left: -3px;
 }
 
+.fa-bookmark {
+  margin-left: 1px;
+}
+
 .fa-certificate{
   margin-left: -14px;
 }
 
-.fa-canadian-maple-leaf{
-  margin-left: 7px;
-  font-size: 17px;
-  margin-right: 0.25em;
-}
-
-.fa-kiwi-bird{
-  margin-left: 9px;
-  margin-right: 0.5em;
-  padding_right: 0.5em;
-}
-
-.fa-flag-usa{
-  margin-left: 10px;
-  font-size: 12px;
-  margin-right:0.25em;
-  padding-right:0.25em;
-}
-
-.fa-superpowers{
-  margin-left: -20px;
-}
 
 .fa-circle{
   margin-left: -22px;
@@ -105,22 +90,21 @@ sup {
 
 .fa-github{
   margin-left: 18px;
+  margin-right: 1px;
 }
 
 .fa-linkedin-in{
   margin-left: 18px;
+  margin-right: 1px;
 }
 
 .fa-phone{
-  margin-left: 18px;
+  margin-left: 19px;
 }
 
 .fa-home{
-  margin-left: 18px;
-}
-
-.fa-road{
-  margin-left: 18px;
+  margin-left: 20px;
+  margin-right: -1px;
 }
 
 
@@ -139,7 +123,6 @@ sup {
   padding-left: 1rem;
 }
 
-
 img {
   margin-left: 2.5em;
   margin-top: -0.33em;
@@ -151,7 +134,7 @@ img {
   content: "• ";
 }
 
-/* Make sure elements in asside are centered and have a nice small text */
+/* Make sure elements in aside are centered and have a nice small text */
 .aside {
   width: calc(var(--sidebar-width) + 9px);
   line-height: 1.2;
@@ -171,7 +154,7 @@ img {
 .skill-bar {
   color: white;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5); 
-  padding: 0.1rem 1rem;
+  padding: 0rem 1rem;
   margin-top: 3px;
   position: relative;
   width: 92.5%;
