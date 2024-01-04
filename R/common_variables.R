@@ -37,7 +37,7 @@ other_skills <- glue("
 {fa_skills} Tableau
 {fa_skills} Power BI
 {fa_skills} CRM (Salesforce)
-{fa_skills} Data Visualization/Reporting
+{fa_skills} Data Visualization/ <br> &nbsp; &nbsp; &nbsp; Reporting
 {fa_skills} Analytical Skills
 {fa_skills} Qualitative Research 
 {fa_skills} Quantitative Research
