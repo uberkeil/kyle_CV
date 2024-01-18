@@ -59,7 +59,7 @@
 }
 
 [data-id="title"] p:nth-child(2){
-  font-size: 1.25em;
+  font-size: 1.15em;
   color:black;
   font-weight: 900;
   margin-bottom: -0.5em;
@@ -67,7 +67,7 @@
 
 [data-id="title"] p:nth-child(3){
   text-align: justify;
-  font-size: 1.25em;
+  font-size: 1.1em;
   margin_bottom: -1em;
   padding-right: 1in;
 } 
