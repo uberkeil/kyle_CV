@@ -3,7 +3,7 @@
 # Header with description of what is trying to be accomplished with this CV/Resume
 my_title <- glue("Data Entry Specialist &nbsp; | &nbsp;  Office Administrator &nbsp; | &nbsp; Data Analyst")
 
-intro_text <- glue("With over 15 years in customer-facing roles and 5+ years specializing in data entry and analytics, I confidently bridge the gap between interpersonal, analytical, and technical skills. A driven and inquisitive self-starter with strong administrative acumen, and fluency in a vast suite of tools particular to office administration, data analysis, and customer service & relations.")
+intro_text <- glue("With over 15 years in customer-facing roles and 5+ years specializing in data entry and analytics, I confidently bridge the gap between interpersonal, analytical, and technical skills. A driven and inquisitive self-starter with strong administrative acumen, and fluency in a vast suite of tools particular to office administration, data analysis, and customer service/relations.")
 
 # Contact infromation 
 my_contacts <- glue("
@@ -89,7 +89,12 @@ hobbies <- glue("
 #  <br>
 #  <br>
 
-my_disclaimer <- glue('<p style = "margin: -4em 0em 0em;">
+disclaimer_1 <- glue('<p style = "margin: -2em 0em 0em;">
+  Page 1 of 2
+</p>'
+)
+
+disclaimer_2 <- glue('<p style = "margin: -4em 0em 0em;">
   Page 2 of 2
 </p>'
 )
