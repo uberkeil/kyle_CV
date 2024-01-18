@@ -91,7 +91,9 @@ cat(sanitize_links(cert_city))
 
 Disclaimer {#disclaimer} 
 -------------------------------------------------------------------------------- 
-Page 1 of 1 
+```{r}
+disclaimer_1
+```
 
 
 Main
@@ -114,7 +116,6 @@ Relevant Work History {data-icon=laptop}
 ```{r}
 position_data %>% print_section('work_history')
 ```
-
 
 \newpage <br>
 
@@ -141,52 +142,8 @@ Second page sidebar {.aside .extra-sidebar}
 my_contacts
 ```
 
-Licences & Certificates {#l_and_c}
---------------------------------------------------------------------------------
-```{r}
-licenses
-```
-
-Languages {#my_languages}
---------------------------------------------------------------------------------
-```{r}
-cat(sanitize_links(language_1))
-```
-
-```{r}
-cat(sanitize_links(proficiency_1))
-```
-
-```{r}
-cat(sanitize_links(language_2))
-```
-
-```{r}
-cat(sanitize_links(proficiency_2))
-```
-
-```{r}
-cat(sanitize_links(language_3))
-```
-
-```{r}
-cat(sanitize_links(proficiency_3))
-```
-
-Hobbies & <br> Interests {#hobbies}
---------------------------------------------------------------------------------
-```{r}
-hobbies
-```
-
-References {#references}
---------------------------------------------------------------------------------
-```{r}
-my_references
-```
-
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 ```{r}
-my_disclaimer
+disclaimer_2
 ```
