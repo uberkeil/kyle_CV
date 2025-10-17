@@ -1,4 +1,6 @@
-## Notes for Customer Service Specific Branch of Resume
+## Notes for Master Document of Resume
+
+- Create csv file to draw information from for common_variables.R (and parsing_functions.R?)
 
 
 
