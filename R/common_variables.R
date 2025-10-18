@@ -13,7 +13,7 @@ my_contacts <- glue("
 - <i class='fab fa-github'></i> github.com/uberkeil
 - <i class='fab fa-linkedin-in'></i> /kyle-p-simpson
 - <i class='fa fa-phone'></i> (226) 337 5258
-- <i class='fa fa-home'></i> Toronto, ON, M5S 2N5")
+- <i class='fa fa-home'></i> Toronto, ON, M4J 3J3")
 
 # Language skills for skill bars visualization
 skills <- tribble(
