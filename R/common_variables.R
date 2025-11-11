@@ -2,14 +2,13 @@
 #test
 
 # Header with description of what is trying to be accomplished with this CV/Resume
-my_title <- glue("Administrative Support Clerk &nbsp; | &nbsp;  Reporting Analyst &nbsp; | &nbsp; Data Entry Specialist")
+my_title <- glue("Administrative Support &nbsp; | &nbsp;  Research Analyst &nbsp; | &nbsp; Data Entry Technician")
 
 intro_text <- glue("With over 15 years in customer-facing roles and 5+ years specializing in data entry and analytics, I confidently bridge the gap between technical, analytical, and interpersonal skills. A driven and inquisitive self-starter with strong administrative acumen, and fluency in a vast suite of tools particular to office administration, reporting, and customer service/relations.")
 
 # Contact infromation 
 my_contacts <- glue("
 - <i class='fa fa-envelope'></i> kyle.p.simpson&#64;gmail.com
-- <i class='fab fa-twitter'></i> _Kyle_Simpson
 - <i class='fab fa-github'></i> github.com/uberkeil
 - <i class='fab fa-linkedin-in'></i> /kyle-p-simpson
 - <i class='fa fa-phone'></i> (226) 337 5258
@@ -18,13 +17,13 @@ my_contacts <- glue("
 # Language skills for skill bars visualization
 skills <- tribble(
   ~skill,               ~level,
-  "Excel/Google Sheets",4.75,
-  "R",                  4.75,
-  "mySQL",              4,
-  "Tableau",            4,
-  "Python",             3.55,
-  "Power BI",           2.55,
-  "HTML5/CSS",          4
+  "Excel/Google Sheets", 4.75,
+  "R",                   4.75,
+  "SQL",                    4,
+  "Bash",                   4,
+  "Python",              3.55,
+  "VBA",                 2.55,
+  "HTML5/CSS",              4
 )
 
 #Other skills builder
@@ -32,9 +31,9 @@ fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
 
 other_skills <- glue("
 {fa_skills} Data Visualization/ <br> &nbsp; &nbsp; &nbsp; Reporting
-{fa_skills} Qualitative Research 
-{fa_skills} Quantitative Research
-{fa_skills} Statistical Modeling
+{fa_skills} Customer Service 
+{fa_skills} Data Wrangling
+{fa_skills} Webscraping
 {fa_skills} Survey Design/Analysis 
 {fa_skills} Agile/JIRA
 {fa_skills} CRM (Salesforce)
@@ -91,7 +90,7 @@ hobbies <- glue("
 #  <br>
 
 disclaimer_1 <- glue('<p style = "margin: -2em 0em 0em;">
-  Page 1 of 2
+  Page 1 of 1
 </p>'
 )
 

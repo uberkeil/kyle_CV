@@ -2,5 +2,11 @@
 
 - Create csv file to draw information from for common_variables.R (and parsing_functions.R?)
 
+- On this same note: 
+  * Create relational database for work history elements: 
+    > Employers - employer information 
+    > Posiitions - as associated with employers 
+    > Skills - as associated with positions (either as a long data frame or a JSON file?) 
+    > This can be showcased as a project. 
 
 

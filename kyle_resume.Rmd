@@ -117,33 +117,4 @@ Relevant Work History {data-icon=laptop}
 position_data %>% print_section('work_history')
 ```
 
-\newpage <br>
 
-Additional Work Experience {data-icon=briefcase}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('work_history_2')
-```
-
-Service & Internships {data-icon=bookmark}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('service')
-```
-
-Second page sidebar {.aside .extra-sidebar}
-================================================================================
-
-{#contact}
---------------------------------------------------------------------------------
-```{r}
-my_contacts
-```
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-```{r}
-disclaimer_2
-```
