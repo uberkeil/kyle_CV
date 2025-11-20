@@ -25,12 +25,14 @@
   padding-top: 1rem;
 }
 
-.aside .level2 {
-  margin-top: 0.315in;
-}
-
 .aside h2 {
   margin-left: 0.7rem;
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
+}
+
+.aside .level2 {
+  margin-top: 0.315in;
 }
 
 .aside p {
@@ -47,7 +49,7 @@
 }
 
 [data-id="main"] ul li{
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 [data-id="title"] {
@@ -78,122 +80,55 @@
 
 [data-id="contact"] ul {
   padding-left: 0 !important;
-  margin-top: -0.15em;
+  margin-top: 2em;
 }
 
-[data-id="skills"] ul {
-  margin: 0in 0 0.05in;
-}
-
-[data-id="skills"] {
-  padding-top: -1em;
-}
-
-[data-id="add_skills"] {
-  padding-top: 3rem;
-}
-
+[data-id="skills"] li, 
 [data-id="add-skills"] li {
-  margin: 10px 0;
+  margin: 5px 0;
   margin-bottom: 0em;
+  margin-left: 1.5em; 
+  text-indent: -1.5em;
 }
 
-[data-id="education_1"] p {
-  line-height: 1.1em;
-  margin-bottom: 0em;
-  margin-left: 12px;
-}
-
-[data-id="education_1"] p:nth-child(2){
-  font-size: 1.1em;
-  color: black;
-  font-weight: 800;
-} 
-
-[data-id="education_1"] p:nth-child(3){
-  font-size: 1.05em;
-  font-weight: 650;
-} 
-
-[data-id="education_1"] p:nth-child(4){
-  font-size: 1em;
-  font-weight: 550;
-} 
-
-[data-id="education_1"] p:nth-child(5){
-  font-size: 0.9em;
-  font-weight: 200;
-} 
-
+[data-id="education_1"] p,
 [data-id="certificate"] p {
   line-height: 1.1em;
-  margin-bottom: 0.2em;
   margin-left: 12px;
+  margin-bottom: -0.25em; 
 }
 
-[data-id="certificate"] p:nth-child(2){
+[data-id="education_1"] p:nth-child(2),
+[data-id="certificate"] p:nth-child(2) {
   font-size: 1.1em;
   color: black;
   font-weight: 800;
 } 
 
-[data-id="certificate"] p:nth-child(3){
+[data-id="education_1"] p:nth-child(3),
+[data-id="certificate"] p:nth-child(3) {
   font-size: 1.05em;
   font-weight: 650;
 } 
 
-[data-id="certificate"] p:nth-child(4){
-  font-size: 1.0em;
+[data-id="education_1"] p:nth-child(4),
+[data-id="certificate"] p:nth-child(4) {
+  font-size: 1em;
   font-weight: 550;
+  margin-bottom: -0.5em; 
 } 
 
-[data-id="certificate"] p:nth-child(5){
+[data-id="education_1"] p:nth-child(5),
+[data-id="certificate"] p:nth-child(5) {
   font-size: 0.9em;
   font-weight: 200;
-} 
-
+}
 
 [data-id="disclaimer"] p {
   margin-block-start: 0.15em;
   margin-block-end: 0.15em;
   margin_bottom: 2em;
   padding_bottom: 2em;
-}
-
-[data-id="l_and_c"] {
-  padding-top: 1em;
-}
-
-[data-id="l_and_c"] li {
-  margin: 10px 0;
-  margin-bottom: 0em;
-}
-
-[data-id="my_languages"] p {
-  line-height: 0.9em;
-  margin-bottom: 0em;
-  padding-left: 12px;
-}
-
-
-[data-id="my_languages"] p:nth-child(2), 
-[data-id="my_languages"] p:nth-child(4),
-[data-id="my_languages"] p:nth-child(6){
-  font-size: 1.1em;
-  color: black;
-  font-weight: 800;
-}
-
-[data-id="my_languages"] p:nth-child(4),
-[data-id="my_languages"] p:nth-child(6){
-  padding-top: 7px;
-}
-
-
-
-[data-id="hobbies"] li {
-  margin: 10px 0;
-  margin-bottom: 0em;
 }
 
 [data-id="references"]{

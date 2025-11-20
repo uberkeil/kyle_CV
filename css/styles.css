@@ -77,33 +77,56 @@ sup {
 }
 
 .fa-caret-right{
-  margin-left: 7px;
+  margin-left: 12px;
+  margin-right: -0.75em;
 }
 
-.fa-envelope{
-  margin-left: 18px;
+.fa-caret-right {
+  /* Hides the original Font Awesome icon */
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 12px; /* Keep your existing left margin */
 }
 
-.fa-twitter{
-  margin-left: 18px;
+/* Inject the new decorator using a pseudo-element */
+.fa-caret-right::before {
+  /* 1. Stop Rendering the Icon Content and Define Shape */
+  content: ""; 
+  display: inline-block;
+  
+  /* 2. Apply Timeline Styling Color */
+  background-color: #08306b; /* The color from your .decorator */
+  border-radius: 50%; /* Makes it a circle */
+  
+  /* 3. Adjust the Size (0.75x of assumed 8px original size = 6px) */
+  width: 5px; 
+  height: 5px; 
+
+  /* 4. Fine-tune Spacing and Alignment */
+  vertical-align: middle; /* Aligns the dot visually with the text */
+  margin-right: 0.5em; /* Add space between the new dot and the text */
+  position: relative;
+  top: -1px; /* Small adjustment for better vertical centering */
 }
 
-.fa-github{
-  margin-left: 18px;
-  margin-right: 1px;
-}
-
+.fa-envelope, 
+.fa-github,
 .fa-linkedin-in{
-  margin-left: 18px;
+  margin-left: 8px;
+}
+
+.fa-github,
+.fa-linkedin-in{
   margin-right: 1px;
 }
 
 .fa-phone{
-  margin-left: 19px;
+  margin-left: 9px;
 }
 
 .fa-home{
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: -1px;
 }
 
@@ -141,7 +164,7 @@ img {
   font-size: 0.75rem;
 }
 
-/* Make little circle outline be a light blue */
+/* Make little circle outlinebe a light blue */
 .decorator::after {
   background-color: #08306b;
 }
