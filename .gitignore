@@ -9,3 +9,7 @@ test_dir
 kyle_cv.html
 all_skills_titles_intro_long.ods
 kyle_resume.html
+*.html
+my_positions/
+notes.txt
+*.ods
