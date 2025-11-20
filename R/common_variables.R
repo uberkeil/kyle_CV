@@ -2,9 +2,9 @@
 #test
 
 # Header with description of what is trying to be accomplished with this CV/Resume
-my_title <- glue("Administrative Support &nbsp; | &nbsp;  Research Analyst &nbsp; | &nbsp; Data Entry Technician")
+my_title <- glue("Data Pipeline Support Specialist &nbsp; | &nbsp;  Research Analyst &nbsp; | &nbsp; Data Stakeholder Liason")
 
-intro_text <- glue("With over 15 years in customer-facing roles and 5+ years specializing in data entry and analytics, I confidently bridge the gap between technical, analytical, and interpersonal skills. A driven and inquisitive self-starter with strong administrative acumen, and fluency in a vast suite of tools particular to office administration, reporting, and customer service/relations.")
+intro_text <- glue("A results-driven professional with over 5 years specializing in data analytics and pipeline support, proficient in SQL, Python, R, and VBA in Excel for data wrangling, automation, and reporting. Confidently combines analytics with strong interpersonal acumen, administrative efficiency, and a proven ability to quickly secure, validate, and analyze complex data types.")
 
 # Contact infromation 
 my_contacts <- glue("
@@ -14,30 +14,30 @@ my_contacts <- glue("
 - <i class='fa fa-phone'></i> (226) 337 5258
 - <i class='fa fa-home'></i> Toronto, ON, M4J 3J3")
 
-# Language skills for skill bars visualization
-skills <- tribble(
-  ~skill,               ~level,
-  "Excel/Google Sheets", 4.75,
-  "R",                   4.75,
-  "SQL",                    4,
-  "Bash",                   4,
-  "Python",              3.55,
-  "VBA",                 2.55,
-  "HTML5/CSS",              4
-)
-
 #Other skills builder
 fa_skills <- my_fa <- "- <i class='fa fa-caret-right'></i>"
 
+
+# Language skills for skill bars visualization
+skills <- glue("
+{fa_skills} SQL
+{fa_skills} Python
+{fa_skills} R
+{fa_skills} VBA
+{fa_skills} Bash
+{fa_skills} Excel/Google Sheets
+{fa_skills} HTML/CSS
+{fa_skills} Agile/JIRA
+")
+
 other_skills <- glue("
-{fa_skills} Data Visualization/ <br> &nbsp; &nbsp; &nbsp; Reporting
-{fa_skills} Customer Service 
 {fa_skills} Data Wrangling
 {fa_skills} Webscraping
-{fa_skills} Survey Design/Analysis 
-{fa_skills} Agile/JIRA
-{fa_skills} CRM (Salesforce)
-{fa_skills} Verbal & Written <br> &nbsp; &nbsp; &nbsp; Communication
+{fa_skills} Information Requests 
+{fa_skills} Data Visualization/Reporting
+{fa_skills} Relational Databases
+{fa_skills} Verbal/Written Communication 
+{fa_skills} Customer/Stakeholder Relations
 ")
 
 #Presenting Education & certification credentials for sidebar
@@ -53,31 +53,12 @@ cert_location <- glue("Google Careers Certification")
 cert_date <- glue("June, 2021")
 cert_city <- glue("Coursera")
 
-#Languages
-
-language_1 <- glue("English")
-proficiency_1 <- glue("Fluent/Native")
-
-language_2 <- glue("French")
-proficiency_2 <- glue("Beginner/Basic")
-
-language_3 <- glue("Te Reo Māori")
-proficiency_3 <- glue("Beginner/Basic")
-
-
 #Licenses and Certificates 
 licenses <- glue("
                  {fa_skills} Driver's License (G2)
                  {fa_skills} Standard First Aid & <br> &nbsp; &nbsp; &nbsp; CPR/AED (Level C)
                  ")
 
-hobbies <- glue("
-  {fa_skills} Nature & Hiking
-  {fa_skills} Cooking & Mixology
-  {fa_skills} Photography
-  {fa_skills} Brazilian Jiu Jitsu
-  {fa_skills} Audio Production
-")
 
 # Disclaimer (Page 2)
 # Work in progress
