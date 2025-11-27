@@ -2,9 +2,9 @@
 #test
 
 # Header with description of what is trying to be accomplished with this CV/Resume
-my_title <- glue("Data Pipeline Support Specialist &nbsp; | &nbsp;  Research Analyst &nbsp; | &nbsp; Data Stakeholder Liason")
+my_title <- glue("ETL/ELT Pipeline Support Specialist &nbsp; | &nbsp;  Researrch Analyst &nbsp; | &nbsp; Data Technician")
 
-intro_text <- glue("A results-driven professional with over 5 years specializing in data analytics and pipeline support, proficient in SQL, Python, R, and VBA in Excel for data wrangling, automation, and reporting. Confidently combines analytics with strong interpersonal acumen, administrative efficiency, and a proven ability to quickly secure, validate, and analyze complex data types.")
+intro_text <- glue("Data analyst with 5+ years experience supporting data pipelines, automating workflows, and integrating datasets using SQL, Python, R, and Excel/Googlesheets. Strong focus on data quality, reporting accuracy, and translating complex data into operational decisions. Experience across Non-profit, Hospitality/Retail, Public Health, and Environmental Research sectors.")
 
 # Contact infromation 
 my_contacts <- glue("
@@ -23,21 +23,22 @@ skills <- glue("
 {fa_skills} SQL
 {fa_skills} Python
 {fa_skills} R
-{fa_skills} VBA
 {fa_skills} Bash
+{fa_skills} Git
 {fa_skills} Excel/Google Sheets
-{fa_skills} HTML/CSS
-{fa_skills} Agile/JIRA
+{fa_skills} Tableu/Power BI
 ")
 
 other_skills <- glue("
+{fa_skills} ETL/ELT 
+{fa_skills} Technical Support
 {fa_skills} Data Wrangling
-{fa_skills} Webscraping
-{fa_skills} Information Requests 
-{fa_skills} Data Visualization/Reporting
-{fa_skills} Relational Databases
-{fa_skills} Verbal/Written Communication 
-{fa_skills} Customer/Stakeholder Relations
+{fa_skills} Data Visualization
+{fa_skills} Reporting
+{fa_skills} Troubleshooting/Debugging
+{fa_skills} Process Documentation
+{fa_skills} Agile/JIRA
+{fa_skills} Customer Service
 ")
 
 #Presenting Education & certification credentials for sidebar

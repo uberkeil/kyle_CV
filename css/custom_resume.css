@@ -83,12 +83,27 @@
   margin-top: 2em;
 }
 
+[data-id="skills"],
+[data-id="add-skills"] {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 [data-id="skills"] li, 
 [data-id="add-skills"] li {
   margin: 5px 0;
-  margin-bottom: 0em;
   margin-left: 1.5em; 
   text-indent: -1.5em;
+}
+
+[data-id="add-skills"] li {
+  margin-bottom: 10px;
+}
+
+[data-id="skills"] ul,
+[data-id="add-skills"] ul {
+  margin-block-end: 0; 
+  padding-bottom: 0; 
 }
 
 [data-id="education_1"] p,

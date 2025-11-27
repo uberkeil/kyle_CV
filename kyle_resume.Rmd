@@ -46,7 +46,7 @@ Data Tools & Languages {#skills}
 skills
 ```
 
-Data Management & Analysis Skills {#add-skills}
+Additional Skills {#add-skills}
 --------------------------------------------------------------------------------
 ```{r other_skills}
 other_skills
