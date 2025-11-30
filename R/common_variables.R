@@ -38,6 +38,7 @@ other_skills <- glue("
 {fa_skills} Troubleshooting/Debugging
 {fa_skills} Process Documentation
 {fa_skills} Agile/JIRA
+{fa_skills} CRM: Salesforce
 {fa_skills} Customer Service
 ")
 
