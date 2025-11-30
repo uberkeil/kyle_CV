@@ -146,10 +146,4 @@
   padding_bottom: 2em;
 }
 
-[data-id="references"]{
-  padding-top: 13em;
-}
-  
-[data-id="references"] li {
-  margin-left: 20px;
-}
+

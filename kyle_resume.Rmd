@@ -48,6 +48,7 @@ skills
 
 Additional Skills {#add-skills}
 --------------------------------------------------------------------------------
+<<<<<<< HEAD
 ```{r other_skills}
 other_skills
 ```
@@ -95,7 +96,6 @@ Disclaimer {#disclaimer}
 disclaimer_1
 ```
 
-
 Main
 ================================================================================
 
@@ -111,10 +111,8 @@ cat(sanitize_links(intro_text))
 ```
 
 Relevant Work History {data-icon=laptop}
---------------------------------------------------------------------------------
+=======
 
 ```{r}
 position_data %>% print_section('work_history')
 ```
-
-
