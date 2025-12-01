@@ -12,3 +12,4 @@ misc/
 .Rproj.user/
 R/consoliGIT.sh
 data/~lock.positions.csv#
+data/.~lock.positions.csv#
