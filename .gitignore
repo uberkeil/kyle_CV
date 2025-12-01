@@ -9,3 +9,6 @@ all_skills_titles_intro_long.ods
 .RData
 kyle_resume.html
 misc/
+.Rproj.user/
+R/consoliGIT.sh
+data/~lock.positions.csv#
